@@ -1,56 +1,133 @@
 <!DOCTYPE html>
 <html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./css/style.css" rel="stylesheet" />
+    <title>Mi portafolio</title>
+  </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-
-<body>
+  <body>
     <nav class="yo">
-        <ul>
-            <li>
-                <a href="#SobreMi">Sobre mí</a>
-            </li>
-            <li>
-                <a href="#Portafolio">Portafolio</a>
-            </li>
-            <li>
-                <a href="#">Experiencia</a>
-            </li>
-        </ul>
-    </nav>
+      <ul>
+        <li>
+          <a href="#SobreMi">Sobre mí</a>
+        </li>
+        <li>
+          <a href="#Portafolio">Portafolio</a>
+        </li>
+        <li>
+          <a href="#Experiencia">Experiencia</a>
+        </li>
+        <li href="#Contacto">Contacto</li>
+      </ul>
+    </nav> <!--Habria que hacer un nav fijo-->
 
     <h1>Bienvenidos, mi nombre es Facundo Correa</h1>
     <h2>Front-end Developer</h2>
 
     <div class="imagen">
-        <img src="../imagen/WhatsApp Image 2023-04-09 at 16.13.38.jpeg">
+      <img src="./img/perfil.png" />
     </div>
 
     <div id="SobreMi">
-        <h1>Sobre mí:</h1>
-        <p>Soy un programador front-end con 28 años de edad y experiencia en el <i>desarrollo web</i> utilizando HTML,
-            CSS, React y JavaScript. Me apasiona crear interfaces de usuario atractivas y funcionales que mejoren la
-            experiencia del usuario. Soy un experto en el desarrollo de aplicaciones web responsivas y en la
-            implementación de diseños en múltiples dispositivos. También tengo experiencia en la integración de API y en
-            la creación de aplicaciones web de alto rendimiento. <i>Me gusta mantenerme actualizado</i> en las últimas
-            tendencias y tecnologías del desarrollo web y aplicarlas en mis proyectos. Soy un trabajador en equipo
-            colaborativo y me esfuerzo por cumplir con los plazos y los estándares de calidad.</p>
+      <h1>Sobre mí:</h1>
+      <p>
+        Soy un programador front-end con 28 años de edad y experiencia en el
+        <i>desarrollo web</i> utilizando HTML, CSS, React y JavaScript. Me
+        apasiona crear interfaces de usuario atractivas y funcionales que
+        mejoren la experiencia del usuario. Soy un experto en el desarrollo de
+        aplicaciones web responsivas y en la implementación de diseños en
+        múltiples dispositivos. También tengo experiencia en la integración de
+        API y en la creación de aplicaciones web de alto rendimiento.
+        <i>Me gusta mantenerme actualizado</i> en las últimas tendencias y
+        tecnologías del desarrollo web y aplicarlas en mis proyectos. Soy un
+        trabajador en equipo colaborativo y me esfuerzo por cumplir con los
+        plazos y los estándares de calidad.
+      </p>
     </div>
 
-    <div id="Portafolio">
-        <h1>Mi portafolio:</h1>
+    <div id="Portafolio"> <!-- aqui habria que ponerle unas card's-->
+      <h1>Mi portafolio:</h1>
 
-        <div class="portafolioImagen">
-            <img src="../imagen/3a772910-095f-4416-8cc7-3e734ac219da.png">
-            <img src="../imagen/4f6bb5fe-5d9e-4298-a610-88f9476ca8f5.png">
-            <img src="../imagen/8aea369a-d2e8-45a9-9664-5c09c6318016.png">
-            <img src="../imagen/d9a7da30-1d1d-4e62-9bc8-76c31ef5bb20.png">
+      <div class="HabilidadesImagen">
+        <img src="./img/html.png" />
+        <img src="./img/css.png" />
+        <img src="./img/javascript.png" />
+        <img src="./img/react.png" />
+      </div>
+      <div class="proyectos">
+        <img src="./img/ejmplo de pagina.jpg" />
+        <img src="./img/pagina-web-vogue-wordpress.jpg" />
+        <img src="./img/ejemplo_pagina_web_eventos-1.jpg" />
+        <img src="./img/images.jpg" />
+      </div>
+    </div>
+    <div id="Experiencia"> <!--Aqui haganlo como quieran-->
+      <p>
+        Durante los últimos 5 años, he trabajado como desarrollador front-end,
+        utilizando HTML, CSS, JavaScript y React para crear sitios web y
+        aplicaciones para clientes en una variedad de industrias. Algunas de mis
+        responsabilidades y logros incluyen:
+      </p>
+
+      <li>
+        Trabajé en un equipo de desarrollo para crear un sitio web de comercio
+        electrónico para una marca de ropa de lujo, utilizando React y Redux
+        para crear una experiencia de compra en línea fluida y atractiva.
+      </li>
+      <li>
+        Diseñé y desarrollé una aplicación web de seguimiento de hábitos para
+        una empresa de bienestar, utilizando HTML, CSS y JavaScript para crear
+        una interfaz atractiva y fácil de usar, y React para manejar la lógica
+        de la aplicación.
+      </li>
+      <li>
+        Implementé soluciones de accesibilidad para sitios web y aplicaciones,
+        asegurándome de que las personas con discapacidades visuales o motoras
+        puedan utilizar la plataforma sin problemas.
+      </li>
+      <li>
+        Colaboré con diseñadores y desarrolladores back-end para asegurarme de
+        que los sitios web y aplicaciones que creaba fueran escalables, seguros
+        y de alta calidad.
+      </li>
+      <li>
+        Participé en proyectos de código abierto, contribuyendo con código a
+        proyectos de React y ofreciendo soporte a otros desarrolladores en la
+        comunidad.
+      </li>
+    </div>
+<footer id="#Contacto"> <!-- este seria el footer habria poner uno a la par del otro y agregar las redes sociales inventadas-->
+    <div class="contenedor">
+        <h3>Hola</h3>
+        <p>Siempre estoy dispuesto a charlar sobre nuevos proyectos, temas interesantes o resolver cualquier duda que tengas. Me apasiona el mundo de la tecnología y me encanta estar al tanto de las últimas tendencias y desarrollos. Si necesitas alguien con quien hablar sobre tus proyectos o simplemente quieres intercambiar ideas, no dudes en contactarme. Estoy siempre abierto a nuevas oportunidades y colaboraciones.</p>
+        <div class="redesSociales">
+            <img src="./img/facebook png.png">
+            <img src="./img/instagram.png">
+            <img src="./img/linkedin.png">
+            <img src="./img/github.png">
         </div>
     </div>
-</body>
+<div class="form">
+    <form action="enviar.php" method="post">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required><br>
+      
+        <label for="email">Correo electrónico:</label>
+        <input type="email" id="email" name="email" required><br>
+      
+        <label for="asunto">Asunto:</label>
+        <input type="text" id="asunto" name="asunto" required><br>
+      
+        <label for="descripcion">Descripción:</label><br>
+        <textarea id="descripcion" name="descripcion" rows="6" cols="40" required></textarea><br>
+      
+        <input type="submit" value="Enviar">
+      </form>
+</div>
 
+</footer>
+  </body>
 </html>
