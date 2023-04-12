@@ -5,6 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="./css/style.css" rel="stylesheet" />
+    <!--Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,700&display=swap" rel="stylesheet">
     <title>Mi portafolio</title>
   </head>
 
@@ -31,39 +35,65 @@
       <img src="./img/perfil.png" />
     </div>
 
-    <div id="SobreMi">
-      <h1>Sobre mí:</h1>
-      <p>
-        Soy un programador front-end con 28 años de edad y experiencia en el
-        <i>desarrollo web</i> utilizando HTML, CSS, React y JavaScript. Me
-        apasiona crear interfaces de usuario atractivas y funcionales que
-        mejoren la experiencia del usuario. Soy un experto en el desarrollo de
-        aplicaciones web responsivas y en la implementación de diseños en
-        múltiples dispositivos. También tengo experiencia en la integración de
-        API y en la creación de aplicaciones web de alto rendimiento.
-        <i>Me gusta mantenerme actualizado</i> en las últimas tendencias y
-        tecnologías del desarrollo web y aplicarlas en mis proyectos. Soy un
-        trabajador en equipo colaborativo y me esfuerzo por cumplir con los
-        plazos y los estándares de calidad.
-      </p>
-    </div>
 
-    <div id="Portafolio"> <!-- aqui habria que ponerle unas card's-->
-      <h1>Mi portafolio:</h1>
 
-      <div class="HabilidadesImagen">
-        <img src="./img/html.png" />
-        <img src="./img/css.png" />
-        <img src="./img/javascript.png" />
-        <img src="./img/react.png" />
+
+
+
+
+    <section class="section_about_skills">
+
+      <div id="SobreMi">
+        <h2 class="about_me_title">Sobre mí</h2>
+        <div class="flex_box_about">        
+          <span class="line yellow_color"></span>
+          <p>
+            Soy un programador front-end con 28 años de edad y experiencia en el
+            <span class="yellow_color">Desarrollo web</span> utilizando HTML, CSS, React y JavaScript. Me
+            apasiona crear interfaces de usuario atractivas y funcionales que
+            mejoren la experiencia del usuario. Soy un experto en el desarrollo de
+            aplicaciones web responsivas y en la implementación de diseños en
+            múltiples dispositivos. También tengo experiencia en la integración de
+            API y en la creación de aplicaciones web de alto rendimiento.
+            <span class="yellow_color">Me gusta Mantenerme Actualizado</span> en las últimas tendencias y
+            tecnologías del desarrollo web y aplicarlas en mis proyectos. Soy un
+            trabajador en equipo colaborativo y me esfuerzo por cumplir con los
+            plazos y los estándares de calidad.
+          </p>
+        </div>
+
       </div>
-      <div class="proyectos">
-        <img src="./img/ejmplo de pagina.jpg" />
-        <img src="./img/pagina-web-vogue-wordpress.jpg" />
-        <img src="./img/ejemplo_pagina_web_eventos-1.jpg" />
-        <img src="./img/images.jpg" />
+      
+      <div id="Portafolio"> <!-- aqui habria que ponerle unas card's-->
+        <h2 class="title_skills">My Skills</h1>
+        
+        <div class="skills_container">
+          <div class="cards"><div class="container_img"><img src="./img/skills-img/html-5.png" alt=""></div>
+            <p>Html</p>
+          </div>
+          <div class="cards"><div class="container_img"><img src="./img/skills-img/css-3.png" alt=""></div>
+            <p>Css</p></div>
+          <div class="cards"><div class="container_img"><img src="./img/react.png" alt=""></div>
+            <p>React</p></div>
+          <div class="cards"><div class="container_img"><img src="./img/skills-img/js.png" alt=""></div>
+            <p>JavaScript</p></div>
+          
+        </div>
+    </section>
+
+        <div class="proyectos">
+          <img src="./img/ejmplo de pagina.jpg" />
+          <img src="./img/pagina-web-vogue-wordpress.jpg" />
+          <img src="./img/ejemplo_pagina_web_eventos-1.jpg" />
+          <img src="./img/images.jpg" />
+        </div>
       </div>
-    </div>
+
+      
+
+
+
+
     <div id="Experiencia"> <!--Aqui haganlo como quieran-->
       <p>
         Durante los últimos 5 años, he trabajado como desarrollador front-end,
