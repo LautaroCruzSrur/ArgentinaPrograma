@@ -6,8 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="./css/style.css" rel="stylesheet" />
     <title>Mi portafolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,700&display=swap" rel="stylesheet">
   </head>
-
   <body>
     <nav class="yo">
       <ul>
@@ -20,9 +22,10 @@
         <li>
           <a href="#Experiencia">Experiencia</a>
         </li>
-        <li href="#Contacto">Contacto</li>
+        <li><a href="#Contacto">Contacto</a></li>
       </ul>
-    </nav> <!--Habria que hacer un nav fijo-->
+    </nav>
+    <!--Habria que hacer un nav fijo-->
 
     <h1>Bienvenidos, mi nombre es Facundo Correa</h1>
     <h2>Front-end Developer</h2>
@@ -48,7 +51,8 @@
       </p>
     </div>
 
-    <div id="Portafolio"> <!-- aqui habria que ponerle unas card's-->
+    <div id="Portafolio">
+      <!-- aqui habria que ponerle unas card's-->
       <h1>Mi portafolio:</h1>
 
       <div class="HabilidadesImagen">
@@ -64,70 +68,119 @@
         <img src="./img/images.jpg" />
       </div>
     </div>
-    <div id="Experiencia"> <!--Aqui haganlo como quieran-->
-      <p>
-        Durante los últimos 5 años, he trabajado como desarrollador front-end,
-        utilizando HTML, CSS, JavaScript y React para crear sitios web y
-        aplicaciones para clientes en una variedad de industrias. Algunas de mis
-        responsabilidades y logros incluyen:
-      </p>
 
-      <li>
-        Trabajé en un equipo de desarrollo para crear un sitio web de comercio
-        electrónico para una marca de ropa de lujo, utilizando React y Redux
-        para crear una experiencia de compra en línea fluida y atractiva.
-      </li>
-      <li>
-        Diseñé y desarrollé una aplicación web de seguimiento de hábitos para
-        una empresa de bienestar, utilizando HTML, CSS y JavaScript para crear
-        una interfaz atractiva y fácil de usar, y React para manejar la lógica
-        de la aplicación.
-      </li>
-      <li>
-        Implementé soluciones de accesibilidad para sitios web y aplicaciones,
-        asegurándome de que las personas con discapacidades visuales o motoras
-        puedan utilizar la plataforma sin problemas.
-      </li>
-      <li>
-        Colaboré con diseñadores y desarrolladores back-end para asegurarme de
-        que los sitios web y aplicaciones que creaba fueran escalables, seguros
-        y de alta calidad.
-      </li>
-      <li>
-        Participé en proyectos de código abierto, contribuyendo con código a
-        proyectos de React y ofreciendo soporte a otros desarrolladores en la
-        comunidad.
-      </li>
-    </div>
-<footer id="#Contacto"> <!-- este seria el footer habria poner uno a la par del otro y agregar las redes sociales inventadas-->
-    <div class="contenedor">
-        <h3>Hola</h3>
-        <p>Siempre estoy dispuesto a charlar sobre nuevos proyectos, temas interesantes o resolver cualquier duda que tengas. Me apasiona el mundo de la tecnología y me encanta estar al tanto de las últimas tendencias y desarrollos. Si necesitas alguien con quien hablar sobre tus proyectos o simplemente quieres intercambiar ideas, no dudes en contactarme. Estoy siempre abierto a nuevas oportunidades y colaboraciones.</p>
-        <div class="redesSociales">
-            <img src="./img/facebook png.png">
-            <img src="./img/instagram.png">
-            <img src="./img/linkedin.png">
-            <img src="./img/github.png">
+    <!--<p>Durante los últimos 5 años, he trabajado como desarrollador front-end,
+      utilizando HTML, CSS, JavaScript y React para crear sitios web y
+      aplicaciones para clientes en una variedad de industrias. Algunas de mis
+      responsabilidades y logros incluyen:</p>--><!-- Esto lo saque pero si quieren lo agregamos -->
+
+    <section id="Experiencia" class="experiencia">
+      <div class="container-exp">
+        <h1 class="title-exp">Experiencia</h1>
+        <div class="contents">
+          <div class="box">
+            <h4>2017</h4>
+            <h3>Desarrollador React/Redux</h3>
+            <p>
+              Trabajé en un equipo de desarrollo para crear un sitio web de
+              comercio electrónico para una marca de ropa de lujo, utilizando
+              React y Redux para crear una experiencia de compra en línea fluida
+              y atractiva.
+            </p>
+          </div>
         </div>
-    </div>
-<div class="form">
-    <form action="enviar.php" method="post">
-        <label for="nombre">Nombre:</label>
-        <input type="text" id="nombre" name="nombre" required><br>
-      
-        <label for="email">Correo electrónico:</label>
-        <input type="email" id="email" name="email" required><br>
-      
-        <label for="asunto">Asunto:</label>
-        <input type="text" id="asunto" name="asunto" required><br>
-      
-        <label for="descripcion">Descripción:</label><br>
-        <textarea id="descripcion" name="descripcion" rows="6" cols="40" required></textarea><br>
-      
-        <input type="submit" value="Enviar">
-      </form>
-</div>
+        <div class="contents">
+          <div class="box">
+            <h4>2018</h4>
+            <h3>Desarrollador Web Front End</h3>
+            <p>
+              Diseñé y desarrollé una aplicación web de seguimiento de hábitos
+              para una empresa de bienestar, utilizando HTML, CSS y JavaScript
+              para crear una interfaz atractiva y fácil de usar, y React para
+              manejar la lógica de la aplicación.
+            </p>
+          </div>
+        </div>
+        <div class="contents">
+          <div class="box">
+            <h4>2019</h4>
+            <h3>Desallorador Web Front End</h3>
+            <p>
+              Implementé soluciones de accesibilidad para sitios web y
+              aplicaciones, asegurándome de que las personas con discapacidades
+              visuales o motoras puedan utilizar la plataforma sin problemas.
+            </p>
+          </div>
+        </div>
+        <div class="contents">
+          <div class="box">
+            <h4>2020</h4>
+            <h3>Desarrollador Web Front End</h3>
+            <p>
+              Colaboré con diseñadores y desarrolladores back-end para
+              asegurarme de que los sitios web y aplicaciones que creaba fueran
+              escalables, seguros y de alta calidad.
+            </p>
+          </div>
+        </div>
+        <div class="contents">
+          <div class="box">
+            <h4>2021</h4>
+            <h3>Desarrollador Web Front End</h3>
+            <p>
+              Participé en proyectos de código abierto, contribuyendo con código
+              a proyectos de React y ofreciendo soporte a otros desarrolladores
+              en la comunidad.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
 
-</footer>
+    <footer id="Contacto">
+      <!-- este seria el footer habria poner uno a la par del otro y agregar las redes sociales inventadas-->
+      <div class="contenedor">
+        <h3>Hola</h3>
+        <p>
+          Siempre estoy dispuesto a charlar sobre nuevos proyectos, temas
+          interesantes o resolver cualquier duda que tengas. Me apasiona el
+          mundo de la tecnología y me encanta estar al tanto de las últimas
+          tendencias y desarrollos. Si necesitas alguien con quien hablar sobre
+          tus proyectos o simplemente quieres intercambiar ideas, no dudes en
+          contactarme. Estoy siempre abierto a nuevas oportunidades y
+          colaboraciones.
+        </p>
+        <div class="redesSociales">
+          <img src="./img/facebook png.png" />
+          <img src="./img/instagram.png" />
+          <img src="./img/linkedin.png" />
+          <img src="./img/github.png" />
+        </div>
+      </div>
+      <div class="form">
+        <form action="enviar.php" method="post">
+          <label for="nombre">Nombre:</label>
+          <input type="text" id="nombre" name="nombre" required /><br />
+
+          <label for="email">Correo electrónico:</label>
+          <input type="email" id="email" name="email" required /><br />
+
+          <label for="asunto">Asunto:</label>
+          <input type="text" id="asunto" name="asunto" required /><br />
+
+          <label for="descripcion">Descripción:</label><br />
+          <textarea
+            id="descripcion"
+            name="descripcion"
+            rows="6"
+            cols="40"
+            required
+          ></textarea
+          ><br />
+
+          <input type="submit" value="Enviar" />
+        </form>
+      </div>
+    </footer>
   </body>
 </html>
