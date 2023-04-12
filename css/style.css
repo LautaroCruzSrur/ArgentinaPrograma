@@ -1,4 +1,5 @@
 :root{
+<<<<<<< HEAD
     --color1:  #5b606a;
     --color2:  #898c8c;
     --color3:  #a6b0b2;
@@ -7,10 +8,22 @@
     --color6:  #ffca6c;
 }
 
+=======
+    --color1:  #5b606a; /* Fondos */
+    --color2:  #898c8c; /* Fondos */
+    --color3:  #a6b0b2; /* Fondos */
+    --color4:  #d9d9da; /* Fuentes */
+    --color5:  #f8f8f8; /* Fuentes */
+    --color6:  #f0bf6c;  /* Fuentes */
+
+    --fuente: 'Roboto', sans-serif;
+}
+>>>>>>> 1e74da9256fa53f2a544c93ae708568e103d5014
 *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+<<<<<<< HEAD
     font-family:  'Roboto',sans-serif;
 }
 
@@ -115,3 +128,59 @@
 
 
 /* END */
+=======
+    font-family: var(--fuente);
+}
+/* -- SECCION EXPERIENCIA -- */
+.experiencia{
+    width: 100%;
+    min-height: 100vh;
+    background-color: var(--color1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--color4);
+}
+.experiencia .container-exp{
+    width: 100%;
+    padding: 35px 10%;
+}
+.experiencia .container-exp .title-exp{
+    display: flex;
+    padding: 0 0 50px 0;
+    font-size: 44px;
+    color: var(--color5);
+}
+.experiencia .container-exp .contents{
+    padding: 0px 30px;
+    border-left: 2px solid var(--color3);
+    margin-left: 20%;
+}
+.experiencia .container-exp .contents .box{
+    width: 80%;
+    position: relative;
+    padding: 20px;
+    background-color: var(--color1);
+    cursor: pointer;
+    transition: all 0.4s;
+    margin-bottom: 20px;
+}
+.experiencia .container-exp .contents .box:hover{
+    box-shadow: 0px 3px 12px 0px var(--color2);
+}
+.experiencia .container-exp .contents .box::before{
+    content: '';
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    right: calc(100% + 21px);
+    top: 0;
+    background-color: var(--color6);
+    box-shadow: 0 0 20px var(--color6);
+    border: 2px solid transparent;
+}
+.experiencia .container-exp .contents .box h3{
+    padding: 2px 0 2px 0;
+}
+>>>>>>> 1e74da9256fa53f2a544c93ae708568e103d5014
