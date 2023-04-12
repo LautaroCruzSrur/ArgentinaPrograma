@@ -1,35 +1,26 @@
 :root{
-<<<<<<< HEAD
-    --color1:  #5b606a;
-    --color2:  #898c8c;
-    --color3:  #a6b0b2;
-    --color4:  #d9d9da;
-    --color5:  #f8f8f8;
-    --color6:  #ffca6c;
-}
-
-=======
     --color1:  #5b606a; /* Fondos */
     --color2:  #898c8c; /* Fondos */
     --color3:  #a6b0b2; /* Fondos */
     --color4:  #d9d9da; /* Fuentes */
     --color5:  #f8f8f8; /* Fuentes */
     --color6:  #f0bf6c;  /* Fuentes */
-
+    
     --fuente: 'Roboto', sans-serif;
+
+    /* COLORES DE LA SECCION skills y about*/
+
+    --color7:#31333b;
+    --color8:#3d3e42;
 }
->>>>>>> 1e74da9256fa53f2a544c93ae708568e103d5014
 *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-<<<<<<< HEAD
-    font-family:  'Roboto',sans-serif;
+    
 }
 
-.section_about_skills{
-    background-color: #5b606a;
-}
+
 
 
 /* ABOUT ME AND SKILLS CONTENT */
@@ -40,6 +31,11 @@
     margin: 0 auto;
     padding-top: 30px;
     padding-bottom: 30px;
+}
+
+.section_about_skills{
+    font-family: var(--fuente);
+    background-color: var(--color7);
 }
 
 .about_me_title, .title_skills{
@@ -58,7 +54,7 @@
     color: var(--color6);
 }
 .line{
-    border: 2px solid #ffca6c;
+    border: 2px solid var(--color6);
     margin-right: 10px;
     border-radius: 3px;
     width: 320px;
@@ -95,14 +91,14 @@
 
 .cards{
 
-    background-color: #898c8c;
+    background-color: var(--color8);
     padding: 50px;
     padding-bottom: 20px;
     border-radius: 20px;
     box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
 }
 .container_img{
-    background-color: #898c8c;
+    background-color: var(--color8);
     width: 128px;
     height: 128px;
 
@@ -128,9 +124,7 @@
 
 
 /* END */
-=======
-    font-family: var(--fuente);
-}
+
 /* -- SECCION EXPERIENCIA -- */
 .experiencia{
     width: 100%;
@@ -183,4 +177,3 @@
 .experiencia .container-exp .contents .box h3{
     padding: 2px 0 2px 0;
 }
->>>>>>> 1e74da9256fa53f2a544c93ae708568e103d5014
