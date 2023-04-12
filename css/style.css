@@ -1,10 +1,11 @@
 :root{
-    --color1:  #5b606a;
-    --color2:  #898c8c;
-    --color3:  #a6b0b2;
+    --color1:  #34353a;
+    --color2:  #31333b;/*fondo about*/
+    --color3:  #f2f2f2;/*color fuente about and cards*/
     --color4:  #d9d9da;
     --color5:  #f8f8f8;
     --color6:  #ffca6c;
+    --color7:  #3d3e42; /*Cards*/
 }
 
 *{
@@ -15,7 +16,7 @@
 }
 
 .section_about_skills{
-    background-color: #5b606a;
+    background-color: var(--color2);
 }
 
 
@@ -77,19 +78,20 @@
 .skills_container p{
     text-align: center;
     font-size: 1.8em;
-    color: var(--color4);
+    color: #f2f2f2;
 }
 
 .cards{
-
-    background-color: #898c8c;
+    margin: 10px;
+    background-color: var(--color7);
     padding: 50px;
     padding-bottom: 20px;
     border-radius: 20px;
     box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+    
 }
 .container_img{
-    background-color: #898c8c;
+    background-color: var(--color7);
     width: 128px;
     height: 128px;
 
@@ -113,5 +115,31 @@
     box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
 }
 
+@media (max-width: 1060px){
+    .skills_container{
+        flex-wrap: wrap;
+        width: 95%;
+       
+    }
+    .cards{
+        margin-bottom: 20px;
+    }
+}
 
+
+@media (max-width: 545px){
+    .cards{
+        padding:25px;
+        padding-bottom: 10px;
+    }
+    .container_img{
+        width: 64px;
+        height: 64px;
+    }
+
+    .skills_container p{
+        font-size: 0.9em;
+    }
+}
 /* END */
+
