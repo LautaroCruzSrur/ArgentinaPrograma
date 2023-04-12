@@ -17,6 +17,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: var(--fuente);
     
 }
 
@@ -37,6 +38,8 @@
     font-family: var(--fuente);
     background-color: var(--color7);
 }
+
+
 
 .about_me_title, .title_skills{
     color: var(--color5);
@@ -86,19 +89,20 @@
 .skills_container p{
     text-align: center;
     font-size: 1.8em;
-    color: var(--color4);
+    color: #f2f2f2;
 }
 
 .cards{
-
-    background-color: var(--color8);
+    margin: 10px;
+    background-color: var(--color7);
     padding: 50px;
     padding-bottom: 20px;
     border-radius: 20px;
     box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+    
 }
 .container_img{
-    background-color: var(--color8);
+    background-color: var(--color7);
     width: 128px;
     height: 128px;
 
@@ -122,14 +126,39 @@
     box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
 }
 
+@media (max-width: 1060px){
+    .skills_container{
+        flex-wrap: wrap;
+        width: 95%;
+       
+    }
+    .cards{
+        margin-bottom: 20px;
+    }
+}
 
+
+@media (max-width: 545px){
+    .cards{
+        padding:25px;
+        padding-bottom: 10px;
+    }
+    .container_img{
+        width: 64px;
+        height: 64px;
+    }
+
+    .skills_container p{
+        font-size: 0.9em;
+    }
+}
 /* END */
 
 /* -- SECCION EXPERIENCIA -- */
 .experiencia{
     width: 100%;
     min-height: 100vh;
-    background-color: var(--color1);
+    background-color: var(--color8);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -154,7 +183,7 @@
     width: 80%;
     position: relative;
     padding: 20px;
-    background-color: var(--color1);
+    background-color: var(--color8);
     cursor: pointer;
     transition: all 0.4s;
     margin-bottom: 20px;
