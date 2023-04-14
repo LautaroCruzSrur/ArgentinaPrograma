@@ -20,6 +20,7 @@
 </head>
 
 <body>
+
   <nav class="navegacion">
     <button class="toggle" aria-label="Abrir Menu">
       <img src="img/menu.png" alt="bars">
@@ -38,7 +39,7 @@
         <a href="#Contacto">Contacto</a>
       </li>
     </ul>
-  </nav> <!--Habria que hacer un nav fijo-->
+  </nav>
 
   <div class="container--hero">
     <div class="titulos">
@@ -55,7 +56,6 @@
         <a href="#"><img src="img/gorjeo.png" alt="twitter"></a>
         <a href="#"><img src="img/linkedin2.png" alt="linkedin"></a>
         <a href="#"><img src="img/whatsapp.png" alt="whatsapp"></a>
-        <span></span>
       </div>
     </div>
 
@@ -193,44 +193,56 @@
       </div>
     </section>
 
-    <footer id="Contacto">
-      <!-- este seria el footer habria poner uno a la par del otro y agregar las redes sociales inventadas-->
-      <div class="contenedor">
-        <h3>Hola</h3>
-        <p>
+    <section id="Contacto" class="container_contacto">
+
+      <div class="container_contacto_texto">
+        <h2 class="container_contacto_titulo">Hola</h2>
+        <p class="container_contacto_parrafo">
           Siempre estoy dispuesto a charlar sobre nuevos proyectos, temas
-          interesantes o resolver cualquier duda que tengas. Me apasiona el
+          interesantes o resolver cualquier duda que tengas. <br> Me apasiona el
           mundo de la tecnología y me encanta estar al tanto de las últimas
           tendencias y desarrollos. Si necesitas alguien con quien hablar sobre
           tus proyectos o simplemente quieres intercambiar ideas, no dudes en
           contactarme. Estoy siempre abierto a nuevas oportunidades y
           colaboraciones.
         </p>
-        <div class="redesSociales">
-          <img src="./img/facebook png.png" />
-          <img src="./img/instagram.png" />
-          <img src="./img/linkedin.png" />
-          <img src="./img/github.png" />
-        </div>
+
+          <div class="container_contacto_redes">
+            <div class="container_contacto_redes_tittle">
+              <p>Mi Mail</p>
+              <p>Sigueme</p>
+            </div>
+            
+            <div class="container_contacto_redes_links">
+              <p>mail@argentinaprograma.com</p>
+              <div class="container_contacto_redes_links_iconos">
+                <a href="#"><img src="./img/linkedin_oscuro.png"/></a>
+                <a href="#"><img src="./img/github.png"/></a>
+                <a href="#"><img src="./img/instagram.png"/></a>
+                <a href="#"><img src="./img/facebook_oscuro.png"/></a>
+                <a href="#"><img src="./img/gorjeo_oscuro.png"/></a>
+              </div>
+              
+            </div>
+            
+          </div>
       </div>
-      <div class="form">
-        <form action="enviar.php" method="post">
-          <label for="nombre">Nombre:</label>
-          <input type="text" id="nombre" name="nombre" required /><br />
 
-          <label for="email">Correo electrónico:</label>
-          <input type="email" id="email" name="email" required /><br />
+      <div class="container_contacto_form">
+        <form>
 
-          <label for="asunto">Asunto:</label>
-          <input type="text" id="asunto" name="asunto" required /><br />
+          <input class="form_input" type="text" id="nombre" name="nombre" placeholder="Nombre" required />
 
-          <label for="descripcion">Descripción:</label><br />
-          <textarea id="descripcion" name="descripcion" rows="6" cols="40" required></textarea><br />
+          <input class="form_input" type="email" id="email" name="email" placeholder="Correo electrónico" required />
 
-          <input type="submit" value="Enviar" />
+          <input class="form_input" type="text" id="asunto" name="asunto" placeholder="Asunto" required />
+
+          <textarea class="form_input" id="descripcion" name="descripcion" rows="6" cols="40" placeholder="Descripción" required></textarea>
+
+          <input class="form_boton" type="submit" value="Enviar"/>
         </form>
       </div>
-    </footer>
+    </section>
 </body>
 
 </html>

@@ -37,6 +37,7 @@
   justify-content: center;
 }
 .navegacion a {
+  font-weight: 700;
   text-decoration: none;
   margin: 20px;
   color: var(--color4);
@@ -335,4 +336,82 @@
     display: block !important;
     text-align: center;
   }
+}
+
+/* ===== FOOTER ===== */
+
+.container_contacto{
+  padding: 80px 0;
+  position: absolute;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: var(--color4);
+}
+
+/* ===== Lado Izquierdo ===== */
+
+.container_contacto_texto{
+  width: 30%;
+}
+.container_contacto_titulo{
+  font-size: 35px;
+  margin-bottom: 30px;
+}
+.container_contacto_parrafo{
+  margin-bottom: 50px;
+  font-weight: 700;
+}
+/* ===== Redes ===== */
+.container_contacto_redes{
+  width: 100%;
+}
+.container_contacto_redes_tittle{
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  color: var(--color1);
+}
+.container_contacto_redes_links{
+  display: flex;
+  justify-content: space-between;
+  font-weight: 700;
+}
+.container_contacto_redes_links_iconos a{
+  margin: 0 3px 0 0;
+}
+/* ===== Formulario ===== */
+.container_contacto_form{
+  background-color: var(--color7);
+  padding: 20px 60px;
+  width: 40%;
+}
+.container_contacto_form textarea{
+  resize: none;
+}
+.form_input{
+  display: block;
+  color: var(--color4);
+  width: 100%;
+  margin: 10px 0 20px 0;
+  padding: 5px 0;
+  background: none;
+  border: none;
+  border-bottom: 1px solid var(--color4);
+}
+.form_input:focus{
+  outline: none;
+}
+.form_input::placeholder{
+  color: var(--color2);
+}
+.form_boton{
+  background-color: var(--color4);
+  border: none;
+  padding: 10px;
+  color: var(--color7);
+  transition: 0.5s;
+}
+.form_boton:hover{
+  cursor: pointer;
 }
