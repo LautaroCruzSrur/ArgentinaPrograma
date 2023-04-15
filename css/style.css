@@ -105,66 +105,6 @@
   height: 100px;
   margin-bottom: 15px;
 }
-/* seccion portafolio */
-.portafolio{
-  background-color: #5b606a;
-  color: var(--color5);
-  padding: 50px 20px;
-}
-
-.portafolio .contenido-seccion{
-  max-width: 1100px;
-  margin: auto;
-}
-.portafolio h2{
-font-size: 48px;
-font-family: var(--fuente);
-text-align: center;
-padding: 20px 0;
-}
-
-.portafolio .galeria{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-}
-.portafolio .galeria .proyecto{
-  position: relative;
-  max-width: 340px;
-  height: fit-content;
-  margin: 10px;
-  cursor: pointer;
-}
-
-.portafolio .galeria .proyecto img{
-  width: 100%;
-  display: block;
-}
-.portafolio .galeria .proyecto .overlay{
-  position: absolute;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  text-align: center;
-  background: linear-gradient(rgba(28, 182, 152, 0.8), rgba(5, 85, 85, 0.8));
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  transition: 1s;
-  font-size: 18px;
-  letter-spacing: 3px;
-  opacity: 0;
-}
-.portafolio .galeria .proyecto .overlay h3{
-  margin-bottom: 20px;
-  transition: 1s;
-}
-.portafolio .galeria .proyecto .overlay:hover{
-  opacity: 1;
-}
-.portafolio .galeria .proyecto .overlay h3{
-  margin-bottom: 0;
-}
 @media (max-width: 768px) {
   /* ===== NAVEGACION ===== */
   .navegacion {
@@ -369,6 +309,67 @@ padding: 20px 0;
   }
 }
 /* END */
+/* PORTAFOLIO */
+.portafolio{
+  background-color: var(--color1);
+  color: var(--color5);
+  padding: 50px 20px;
+}
+
+.portafolio .contenido-seccion{
+  max-width: 1100px;
+  margin: auto;
+}
+.portafolio h2{
+font-size: 48px;
+font-family: var(--fuente);
+text-align: center;
+padding: 20px 0;
+}
+
+.portafolio .galeria{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.portafolio .galeria .proyecto{
+  position: relative;
+  max-width: 340px;
+  height: fit-content;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.portafolio .galeria .proyecto img{
+  width: 100%;
+  display: block;
+}
+.portafolio .galeria .proyecto .overlay{
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  background: linear-gradient(rgba(28, 182, 152, 0.8), rgba(5, 85, 85, 0.8));
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  transition: 1s;
+  font-size: 18px;
+  letter-spacing: 3px;
+  opacity: 0;
+}
+.portafolio .galeria .proyecto .overlay h3{
+  margin-bottom: 20px;
+  transition: 1s;
+}
+.portafolio .galeria .proyecto .overlay:hover{
+  opacity: 1;
+}
+.portafolio .galeria .proyecto .overlay h3{
+  margin-bottom: 0;
+}
+/* END */
 
 /* -- SECCION EXPERIENCIA -- */
 .experiencia {
@@ -453,7 +454,7 @@ padding: 20px 0;
   position: absolute;
   display: flex;
   justify-content: space-evenly;
-  background-color: var(--color4);
+  background-color: var(--color5);
 }
 
 /* ===== Lado Izquierdo ===== */
@@ -470,7 +471,24 @@ padding: 20px 0;
   font-weight: 700;
 }
 /* ===== Redes ===== */
+.container_contacto_redes_links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-right: 1em;
+}
+
+.container_contacto_redes_links h3 {
+  margin-bottom: 5px;
+}
+
+.container_contacto_redes_links p {
+  margin-top: 0;
+}
 .container_contacto_redes{
+  display: flex;
+  flex:column;
   width: 100%;
   min-width: 358px;
 }
@@ -478,15 +496,16 @@ padding: 20px 0;
   width: 80%;
   display: flex;
   justify-content: space-between;
-  margin-bottom: 10px;
-  color: var(--color1);
+  
 }
-.container_contacto_redes_links{
+/*.container_contacto_redes_links{
   display: flex;
   justify-content: space-between;
   font-weight: 700;
   min-width: 362px;
-}
+  margin-bottom: 10px;
+  color: var(--color1);
+}*/
 .container_contacto_redes_links_iconos a{
   margin: 0 3px 0 0;
   padding-left: 2px;
@@ -537,4 +556,31 @@ padding: 20px 0;
 .form_boton:hover{
   cursor: pointer;
   color: rgb(116, 116, 116);
+}
+
+@media (max-width: 545px) {
+  .container_contacto_parrafo{
+    margin: 1.5em;
+    text-align: center;
+    font-weight: 700;
+  }
+  .container_contacto_redes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .container_contacto_redes_tittle {
+    margin-bottom: 10px;
+  }
+
+  .container_contacto_redes_links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .container_contacto_redes_links p {
+    margin: 5px 0;
+  }
 }
