@@ -362,6 +362,8 @@
 }
 .experiencia .container-exp .contents .box h3 {
   padding: 2px 0 2px 0;
+  color: var(--color6);
+  font-size: 1.5em;
 }
 
 @media (max-width: 768px) {
@@ -369,6 +371,20 @@
     display: block !important;
     text-align: center;
   }
+}
+@media (max-width: 545px) {
+  .experiencia .container-exp{
+    padding: 0;
+  }
+  .title-exp {
+    padding: 35px 10% !important;
+  }
+  .experiencia .container-exp .contents {
+    width: 100%;
+  }
+.experiencia .container-exp .contents .box h3 {
+  font-size: 1.1em;
+}
 }
 
 /* ===== FOOTER ===== */
