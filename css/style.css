@@ -260,6 +260,19 @@
   .cards {
     margin-bottom: 20px;
   }
+
+  .container_contacto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .container_contacto_form, .container_contacto_texto{
+    width: 60%!important;
+  }
+  .container_contacto_texto{
+    margin-bottom: 30px;
+  }
 }
 
 @media (max-width: 545px) {
@@ -274,6 +287,13 @@
 
   .skills_container p {
     font-size: 0.9em;
+  }
+
+  .container_contacto_texto, .container_contacto_form{
+    min-width: 387px;
+  }
+  .container_contacto_titulo{
+    text-align: center;
   }
 }
 /* END */
@@ -364,6 +384,7 @@
 /* ===== Redes ===== */
 .container_contacto_redes{
   width: 100%;
+  min-width: 358px;
 }
 .container_contacto_redes_tittle{
   width: 80%;
@@ -376,18 +397,25 @@
   display: flex;
   justify-content: space-between;
   font-weight: 700;
+  min-width: 362px;
 }
 .container_contacto_redes_links_iconos a{
   margin: 0 3px 0 0;
+  padding-left: 2px;
+  min-width: 142px;
 }
 /* ===== Formulario ===== */
 .container_contacto_form{
+
   background-color: var(--color7);
   padding: 20px 60px;
   width: 40%;
 }
+
+
 .container_contacto_form textarea{
   resize: none;
+
 }
 .form_input{
   display: block;
@@ -398,6 +426,7 @@
   background: none;
   border: none;
   border-bottom: 1px solid var(--color4);
+  font-size: 1.1em;
 }
 .form_input:focus{
   outline: none;
@@ -406,12 +435,17 @@
   color: var(--color2);
 }
 .form_boton{
+  display: block;
   background-color: var(--color4);
   border: none;
-  padding: 10px;
+  padding: 10px 20px;
+  
   color: var(--color7);
   transition: 0.5s;
+  float: right;
+  
 }
 .form_boton:hover{
   cursor: pointer;
+  color: rgb(116, 116, 116);
 }
