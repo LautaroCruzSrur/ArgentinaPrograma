@@ -270,6 +270,7 @@
   .container_contacto_form, .container_contacto_texto{
     width: 60%!important;
   }
+  .container_contacto_form{padding: 20px 40px!important;}
   .container_contacto_texto{
     margin-bottom: 30px;
   }
@@ -291,7 +292,10 @@
 
   .container_contacto_texto, .container_contacto_form{
     min-width: 387px;
+    
   }
+  .container_contacto_form{padding: 20px 40px;}
+  
   .container_contacto_titulo{
     text-align: center;
   }
