@@ -1,5 +1,6 @@
 <h1>Portafolio Personal</h1>
-Este es un proyecto de un portafolio personal creado por un grupo Argentina Programa que utiliza HTML, CSS y JavaScript para mostrar información sobre una persona ficticia.
+<img href="https://pablocamacho.com.ar/multimedia/imagenes/argentinaprograma.png">
+Este es un proyecto de un portafolio personal creado por un grupo <a href="https://www.argentina.gob.ar/economia/conocimiento/argentina-programa">Argentina Programa</a> que utiliza HTML, CSS y JavaScript para mostrar información sobre una persona ficticia.
 
 <h2>Comenzando</h2>
 Para utilizar este proyecto, simplemente descarga o clona el repositorio en tu máquina local. Luego, abre el archivo index.html en tu navegador web para visualizar el sitio web.
