@@ -31,4 +31,4 @@ Este proyecto fue creado por el equipo de estudio. Los integrantes son:
 <strong>Damian Ottone</strong> (@damianottone)<br>
 <strong>Gabriel Martinez</strong> (@DemonShike)<br>
 <strong>Sofia Francia</strong> (@sofifrancia5)<br>
-<strong>Julian Giansanti</strong>(@JulianGiansanti)
+<strong>Julian Giansanti</strong> (@JulianGiansanti)
