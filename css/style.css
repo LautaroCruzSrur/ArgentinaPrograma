@@ -584,3 +584,11 @@ padding: 20px 0;
     margin: 5px 0;
   }
 }
+.warnings{
+  width:200px;
+  text-align: center;
+  margin: auto;
+  color: #b06ab3;
+  padding-top: 20px;
+}
+/*  INCONOS */ 

@@ -52,9 +52,9 @@
     
       <div class="container--contacto">
         <span class="barra_vertical"></span>
-        <a href="#"><img src="img/facebook.png" alt="facebook"></a>
+        <a href="#" ><img src="img/facebook.png" alt="facebook" ></a>
         <a href="#"><img src="img/gorjeo.png" alt="twitter"></a>
-        <a href="#"><img src="img/linkedin2.png" alt="linkedin"></a>
+        <a href="#" ><img src="img/linkedin2.png" alt="linkedin"></a>
         <a href="#"><img src="img/whatsapp.png" alt="whatsapp"></a>
       </div>
     </div>
@@ -264,7 +264,7 @@
       </div>
 
       <div class="container_contacto_form">
-        <form>
+        <form action="" method="post" id="form">
 
           <input class="form_input" type="text" id="nombre" name="nombre" placeholder="Nombre" required />
 
@@ -274,7 +274,8 @@
 
           <textarea class="form_input" id="descripcion" name="descripcion" rows="6" cols="40" placeholder="Descripción" required></textarea>
 
-          <input class="form_boton" type="submit" value="Enviar"/>
+          <button class="form_boton" type="submit" value="Enviar">Enviar</buttom>
+            <p class="warnings" id="warnings"></p>
         </form>
       </div>
     </footer>
