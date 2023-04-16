@@ -1,5 +1,5 @@
 <h1>Portafolio Personal</h1>
-<img src="https://pablocamacho.com.ar/multimedia/imagenes/argentinaprograma.png" alt="logo de argentina programa">
+<img src="https://argentinaprograma.inti.gob.ar/pluginfile.php/1/theme_moove/sliderimage1/1676134779/banner-ok-argentina-programa.jpg" alt="logo de argentina programa">
 Este es un proyecto de un portafolio personal creado por un grupo <a href="https://www.argentina.gob.ar/economia/conocimiento/argentina-programa">Argentina Programa</a> que utiliza HTML, CSS y JavaScript para mostrar información sobre una persona ficticia.
 
 <h2>Comenzando</h2>
