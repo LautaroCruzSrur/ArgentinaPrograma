@@ -41,4 +41,13 @@ form.addEventListener("submit", e=>{
     parrafo.innerHTML = warnings;
    }
 })
+function mostrarImagen() {
+  document.getElementById("ventanaEmergente").style.display = "block";
+}
+window.onclick = function(event) {
+  if (event.target == document.getElementById("ventanaEmergente")) {
+    document.getElementById("ventanaEmergente").style.display = "none";
+  }
+}
+
 
