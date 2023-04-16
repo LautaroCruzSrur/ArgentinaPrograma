@@ -28,8 +28,8 @@ Este proyecto está bajo la Licencia MIT. Ver el archivo LICENSE para más detal
 <h3>Autores</h3>
 Este proyecto fue creado por el equipo de estudio. Los integrantes son:
 
-<strong>Lautaro Gabriel Cruz Srur</strong> (@LautaroCruzSrur)<br>
-<strong>Damian Ottone</strong> (@damianottone)<br>
-<strong>Gabriel Martinez</strong> (@DemonShike)<br>
-<strong>Sofia Francia</strong> (@sofifrancia5)<br>
-<strong>Julian Giansanti</strong> (@JulianGiansanti)
+<strong>Lautaro Gabriel Cruz Srur</strong> <a href="https://github.com/LautaroCruzSrur">(@LautaroCruzSrur)</a><br>
+<strong>Damian Ottone</strong> <a href="https://github.com/damianottone">(@damianottone)</a><br>
+<strong>Gabriel Martinez</strong> <a href="https://github.com/DemonShike">(@DemonShike)</a><br>
+<strong>Sofia Francia</strong> <a href="https://github.com/sofifrancia5">(@sofifrancia5)</a><br>
+<strong>Julian Giansanti</strong> <a href="https://github.com/JulianGiansanti">(@JulianGiansanti)</a>
