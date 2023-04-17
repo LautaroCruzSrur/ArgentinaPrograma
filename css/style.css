@@ -433,8 +433,18 @@ padding: 20px 0;
     display: block !important;
     text-align: center;
   }
+  .box-nav.abajo{
+    top: -40px;
+    transition: all 1000ms;
+
+  }
 }
 @media (max-width: 545px) {
+  .box-nav.abajo{
+    top: -40px;
+    transition: all 1000ms;
+
+  }
   .experiencia .container-exp{
     padding: 0;
   }
