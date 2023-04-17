@@ -4,19 +4,19 @@
 <head>
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta http-equiv="Content-Type" content="text/css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Mi portafolio</title>
   
   <!-- Css -->
-  <link href="css/style.css" rel="stylesheet" />
+  <link id="stylesheet1" href="css/style.css" rel="stylesheet" type="text/css"/>
+  
 
   <!--Fonts-->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-  
-  <!-- JavaScript -->
-    <script defer src="index.js"></script>
+
 </head>
 
 <body>
@@ -44,6 +44,11 @@
           <img src="./img/qrcode-generado.png" alt="QR de Curriculum">
           <a href="https://drive.google.com/uc?export=download&id=1JiACXVNQplRyoQZboJHXB-mN1HMQx3HV">Link de descarga directo</a>
         </div>
+      </li>
+    </ul>
+    <ul class="boton-modo">
+      <li>
+        <button id="mode" class="modo-nocturno" onclick="cambiarCSS()">Cambiar de Tema</button>
       </li>
     </ul>
   </nav>
@@ -286,5 +291,7 @@
         </form>
       </div>
     </footer>
+    <!-- JavaScript -->
+    <script defer src="index.js"></script>
  </body>
 </html>

@@ -50,3 +50,27 @@ window.addEventListener("scroll", function () {
   var header = document.querySelector(".box-nav");
   header.classList.toggle("abajo", window.scrollY > 0);
 });
+
+function cambiarCSS() {
+  var stylesheet = document.getElementById("stylesheet1"); // obtener elemento de enlace
+  if (stylesheet.getAttribute("href") == "css/style.css") {
+    stylesheet.setAttribute("href", "css/style2.css"); // cambiar el valor del atributo href
+    localStorage.setItem("modo-nocturno", "true"); // guardar el modo nocturno en localStorage
+  } else {
+    stylesheet.setAttribute("href", "css/style.css"); // cambiar el valor del atributo href
+    localStorage.setItem("modo-nocturno", "false"); // guardar el modo diurno en localStorage
+  }
+}
+
+var modoNocturno = localStorage.getItem("modo-nocturno");
+
+if (modoNocturno == "true") {
+  var stylesheet = document.getElementById("stylesheet1");
+  stylesheet.setAttribute("href", "css/style2.css");
+}
+
+const boton = document.querySelector('.boton-modo');
+
+boton.addEventListener('click', function() {
+  boton.style.display = 'none';
+});

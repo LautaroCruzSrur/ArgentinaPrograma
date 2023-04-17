@@ -12,6 +12,15 @@
 
   --color7: #31333b;
   --color8: #3d3e42;
+
+  /* COLORES DEL WHITE MODE*/
+  --color11: #6a655b;
+  --color12: #8c8989;
+  --color13: #b2a8a6;
+  --color14: #dadad9;
+  --color15: #f7f7f7;
+  --color16: #6c9df0;
+
 }
 
 * {
@@ -695,4 +704,34 @@ padding: 20px 0;
 
 @keyframes blink {
     50%{border-color: transparent}
+}
+
+/* WHITE MODE */
+.boton-modo{
+  list-style: none;
+}
+#mode {
+  background-color: #ffffff;
+  color: #333333;
+  border: 2px solid #333333;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 1em;
+  cursor: pointer;
+  margin-bottom: 1em;
+}
+
+#mode:hover {
+  background-color: #333333;
+  color: #ffffff;
+}
+
+#mode.modo-nocturno {
+  background-color: #333333;
+  color: #ffffff;
+}
+
+#mode.modo-nocturno:hover {
+  background-color: #ffffff;
+  color: #333333;
 }
