@@ -33,3 +33,5 @@ Este proyecto fue creado por el equipo de estudio. Los integrantes son:
 <strong>Gabriel Martinez</strong> <a href="https://github.com/DemonShike">(@DemonShike)</a><br>
 <strong>Sofia Francia</strong> <a href="https://github.com/sofifrancia5">(@sofifrancia5)</a><br>
 <strong>Julian Giansanti</strong> <a href="https://github.com/JulianGiansanti">(@JulianGiansanti)</a>
+<strong>Facundo Lucero</strong> <a href="https://github.com/Facundo4739">(@Facundo4739)</a>
+                                           
