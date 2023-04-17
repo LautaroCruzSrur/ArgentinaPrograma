@@ -74,3 +74,20 @@ const boton = document.querySelector('.boton-modo');
 boton.addEventListener('click', function() {
   boton.style.display = 'none';
 });
+
+window.addEventListener('scroll', function() {
+  if (window.scrollY > 100) {
+    boton.style.display = 'none';
+  } else {
+    boton.style.display = 'block';
+  }
+});
+
+const menu_actived = document.querySelector('.nav-menu_actived');
+window.addEventListener('scroll', function() {
+  if (window.scrollY > 100) {
+    menu_actived.style.display = 'none';
+  } else {
+    menu_actived.style.display = 'flex';
+  }
+});
