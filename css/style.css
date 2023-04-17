@@ -571,7 +571,9 @@ padding: 20px 0;
 }
 
 @media (max-width: 545px) {
-
+  .marginBottom{
+    margin-bottom: 10px;
+  }
   .container_contacto_parrafo{
     margin: 1.5em;
     text-align: center;
