@@ -109,6 +109,7 @@
   /* ===== NAVEGACION ===== */
   .navegacion {
     padding: 20px;
+    width:auto;
   }
   .nav-menu {
     display: flex;
@@ -440,7 +441,7 @@ padding: 20px 0;
     padding: 35px 10% !important;
   }
   .experiencia .container-exp .contents {
-    width: 100%;
+    width: 75%;
   }
 .experiencia .container-exp .contents .box h3 {
   font-size: 1.1em;
@@ -560,6 +561,7 @@ padding: 20px 0;
 }
 
 @media (max-width: 545px) {
+
   .container_contacto_parrafo{
     margin: 1.5em;
     text-align: center;
