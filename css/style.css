@@ -31,7 +31,7 @@
   right:0;
   top: 0;
   z-index: 10;
-}
+ }
 .nav-menu {
   font-size: 700;
   display: flex;
@@ -65,7 +65,7 @@
 .container--hero {
   width: 100%;
   display: flex;
-  padding-top: 20px;
+  padding-top: 70px;
   text-align: center;
   background-color: var(--color1);
   justify-content: space-evenly;
@@ -302,8 +302,7 @@
   }
 
   .container_contacto_texto, .container_contacto_form{
-    min-width: 387px;
-    
+    min-width: 350px;
   }
   .container_contacto_form{padding: 20px 40px;}
   
