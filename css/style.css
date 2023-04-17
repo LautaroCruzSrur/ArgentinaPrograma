@@ -26,7 +26,9 @@
 .navegacion {
   background-color: var(--color1);
   padding: 20px;
-  position: sticky;
+  position: fixed;
+  left: 0;
+  right:0;
   top: 0;
   z-index: 10;
 }
@@ -452,7 +454,6 @@ padding: 20px 0;
 
 .container_contacto{
   padding: 80px 0;
-  position: absolute;
   display: flex;
   justify-content: space-evenly;
   background-color: var(--color5);
