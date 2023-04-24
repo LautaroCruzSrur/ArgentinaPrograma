@@ -23,6 +23,9 @@
 
 }
 
+html{
+  scroll-behavior: smooth;
+}
 * {
   box-sizing: border-box;
   margin: 0;
@@ -33,13 +36,15 @@
 /* ===== NAVEGACION ===== */
 
 .navegacion {
-  background-color: var(--color1);
+  background-color: transparent;
   padding: 20px;
   position: fixed;
   left: 0;
   right:0;
   top: 0;
   z-index: 10;
+
+  
  }
 .nav-menu {
   font-size: 700;
@@ -55,6 +60,10 @@
 }
 .navegacion a:hover {
   color: var(--color5);
+  transition: 0.5s;
+}
+.navegacion .nav-menu li:hover{
+  scale: 1.1;
   transition: 0.5s;
 }
 .toggle {
